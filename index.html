@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10x10</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 600px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top flex">
+            <h1><a href="#"><img src="./images/header-logo.png"></a></h1>
+            <div class="event flex">
+                <ul class="flex">
+                    <li class="nav-diarystory2024"><a href="/diarystory2024/index.asp" style="color:#FF603E;">2024
+                            텐텐다꾸</a>
+                    </li>
+                    <li class="nav-preorder"><a href="/pre-order">프리오더</a></li>
+                    <li class="nav-new"><a href="/shoppingtoday/shoppingchance_newitem.asp?gaparam=main_menu_new"
+                            onclick="fnAmplitudeEventMultiPropertiesAction('click_topmenu','type|landing_url','new|/index.asp');">신상품</a>
+                    </li>
+                    <li class="nav-best"><a href="/award/awardlist.asp?atype=b&amp;gaparam=main_menu_best"
+                            onclick="fnAmplitudeEventMultiPropertiesAction('click_topmenu','type|landing_url','best|/index.asp');">베스트</a>
+                    </li>
+                    <li class="nav-sale"><a href="/shoppingtoday/shoppingchance_saleitem.asp?gaparam=main_menu_sale"
+                            onclick="fnAmplitudeEventMultiPropertiesAction('click_topmenu','type|landing_url','sale|/index.asp');">할인특가</a>
+                    </li>
+                    <li class="nav-event"><a href="/shoppingtoday/shoppingchance_allevent.asp?gaparam=main_menu_event"
+                            onclick="fnAmplitudeEventMultiPropertiesAction('click_topmenu','type|landing_url','event|/index.asp');">기획전</a>
+                    </li>
+                    <li class="nav-brand"><a href="/street/?gaparam=main_menu_brand"
+                            onclick="fnAmplitudeEventMultiPropertiesAction('click_topmenu','type|landing_url','brand|/index.asp');">브랜드</a>
+                    </li>
+                </ul>
+                <div class="search-form">
+                    <form action="">
+                        <input type="text" placeholder="띠부씰 포토후기 이벤트! 잊지 말아요!">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul class="flex">
+                <li class="main-menu"><a href="#">디자인문구</a></li>
+                <li class="main-menu"><a href="#">디지털/핸드폰</a></li>
+                <li class="main-menu"><a href="#">디자인가전</a></li>ㅣ
+                <li class="main-menu"><a href="#">가구/수납</a></li>
+                <li class="main-menu"><a href="#">패브릭/생활</a></li>
+                <li class="main-menu"><a href="#">데코/조명</a></li>
+                <li class="main-menu"><a href="#">키친</a></li>
+                <li class="main-menu food"><a href="#">푸드</a></li>ㅣ
+                <li class="main-menu fashion"><a href="#">패션의류</a></li>
+                <li class="main-menu"><a href="#">패션잡화</a></li>
+                <li class="main-menu"><a href="#">뷰티</a></li>
+                <li class="main-menu"><a href="#">주얼리/시계</a></li>ㅣ
+                <li class="main-menu"><a href="#">Cat&Dog</a></li>
+                <li class="main-menu"><a href="#">토이/취미</a></li>
+                <li class="main-menu"><a href="#">캠핑</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/slide1.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide2.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide3.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide4.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide5.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide6.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide7.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide8.jpg"></div>
+            <div class="swiper-slide"><img src="./images/slide9.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="sect1">
+        <ul class="flex">
+            <li>
+                <figure><a href="#"><img src="./images/sect1-1.jpg">
+                        <figcaption>MD추천 또쓴템 PEANUTS</figcaption>
+                        <p>나만의 공간을 채울 추천템과 특별한 혜택까지!</p>
+                    </a></figure>
+            </li>
+            <li>
+                <figure><a href="#"><img src="./images/sect1-2.jpg">
+                        <figcaption>라인프렌즈 엘라고 샐리</figcaption>
+                        <p>텐바이텐 단독 선런칭으로 만나보세요</p>
+                    </a></figure>
+            </li>
+            <li>
+                <figure><a href="#"><img src="./images/sect1-3.jpg">
+                        <figcaption>무료배송 지원!</figcaption>
+                        <p>1만원 이상 구매 시 무료배송 쿠폰 자동 발급</p>
+                    </a></figure>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sect2 flex">
+        <div class="sect2-inner flex">
+            <div class="summary">
+                <h2>MD's Pick</h2>
+                <p>텐바이텐 엠디가
+                    <br />자신있게 추천합니다
+                </p>
+                <ul class="tab-menu">
+                    <li><a href="#" data-filter="*" class="on">#ALL</a></li>
+                    <li><a href="#" data-filter=".BEST">#BEST</a></li>
+                    <li><a href="#" data-filter=".NEW">#NEW</a></li>
+                </ul>
+            </div>
+            <div class="grid-wrap">
+                <div class="grid">
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-1.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-2.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-3.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-4.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-5.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-6.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-7.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-8.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-9.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-10.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-11.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-12.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-13.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-14.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-15.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-16.jpg"></a></div>
+                    <div class="grid-item BEST"><a href="#"><img src="./images/sect2-17.jpg"></a></div>
+                    <div class="grid-item NEW"><a href="#"><img src="./images/sect2-18.jpg"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sect3">
+        <ul class="flex">
+            <li><a id="trigger" href="#"><img src="./images/itemimage1.jpg"></a></li>
+            <li><a href="https://www.10x10.co.kr/" 
+                data-fancybox
+                data-type="ifame"
+                data-preload="false"
+                data-width="100%"
+                data-height="100%"><img src="./images/itemimage2.jpg"></a></li>
+
+            <li><a href="./images/itemimage3.jpg" data-fancybox="gallery"><img src="./images/itemimage3.jpg"></a></li>
+            <li><a href="./images/itemimage4.jpg" data-fancybox="gallery"><img src="./images/itemimage4.jpg"></a></li>
+            <li><a href="./images/itemimage5.jpg" data-fancybox="gallery"><img src="./images/itemimage5.jpg"></a></li>
+            <li><a href="./images/itemimage6.jpg" data-fancybox="gallery"><img src="./images/itemimage6.jpg"></a></li>
+            <li><a href="./images/itemimage7.jpg" data-fancybox="gallery"><img src="./images/itemimage7.jpg"></a></li>
+            <li><a href="./images/itemimage8.jpg" data-fancybox="gallery"><img src="./images/itemimage8.jpg"></a></li>
+            <li><a href="./images/itemimage9.jpg" data-fancybox="gallery"><img src="./images/itemimage9.jpg"></a></li>
+            <li><a href="./images/itemimage10.jpg" data-fancybox="gallery"><img src="./images/itemimage10.jpg"></a></li>
+
+            <li class="etc"><img src="./images/itemimage1.jpg"></li>
+            <li class="etc"><img src="./images/itemimage2.jpg"></li>
+            <li class="etc"><img src="./images/itemimage3.jpg"></li>
+        </ul>
+        <span class="prev"><img src="./images/arrow_prev.png"></span>
+        <span class="next"><img src="./images/arrow_next.png"></span>
+    </div>
+
+    <div class="sect4">
+        <ul class="button flex">
+            <li class="on"><a href="#">조회수 급상승</a></li>
+            <li><a href="#">장바구니 인기</a></li>
+        </ul>
+        <div class="tabs flex">
+            <h3>다른 고객들은
+                <br /> <b>이 상품을
+                    <br /> 보고 있어요</b>
+            </h3>
+            <div class="tab-contents">
+                <div class="watch item tab on">
+                    <ul class="flex">
+                        <li><a href="#"><img src="./images/tab-menu1-1.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-2.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-3.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-4.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-5.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-6.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-7.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu1-8.jpg"></a></li>
+                    </ul>
+                </div>
+                <div class="bag item tab">
+                    <ul class="flex">
+                        <li><a href="#"><img src="./images/tab-menu2-1.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-2.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-3.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-4.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-5.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-6.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-7.jpg"></a></li>
+                        <li><a href="#"><img src="./images/tab-menu2-8.jpg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sect5">
+        <div class="login">
+            <a href="#"><img src="./images/txt_login_now.png"></a>
+            <ul class="flex">
+                <li><a href="#"><img src="./images/btn_join_v2.png"></a></li>
+                <li><a href="#"><img src="./images/btn_login_v2.png"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-nav">
+                <ul class="flex">
+                    <li><a href="#">회사소개</a></li>
+                    <li class="hire"><a href="#">채용정보</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">청소년 보호정책</a></li>
+                    <li><a href="#">제휴/광고</a></li>
+                    <li><a href="#">입점문의</a></li>
+                    <li><a href="#">매장안내</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-ex">
+            <div class="footer-wrap flex">
+                <h1><a href="#"><img src="./images/footerlogo_tenbyten.png"></a></h1>
+                <div class="copyright">
+                    <h4>㈜텐바이텐</h4>
+                    <p>대표이사 : 최은희 / 서울시 종로구 대학로 57 홍익대학교 대학로캠퍼스 교육동 14층
+                        <br />사업자등록번호 : 211-87-00620 / 통신판매업 신고 : 제 01-1968호<span><a href="#">사업자 정보확인</a></span>
+                        <br />전화번호 : 1644-6030 / E-mail : customer@10x10.co.kr
+                        <br />개인정보보호책임자 : 이문재 / 소비자피해보상보험 SGI 서울보증<span><a href="#">서비스 가입 사실 확인</a></span>
+                    </p>
+                    <p>
+                        호스팅서비스:㈜텐바이텐
+                        <br />사이트 내 판매 상품 중 일부는 ㈜텐바이텐에 입점한 개별판매자가 판매하는 상품이 포함되어 있습니다. 해당 상품의 경우
+                        <br />㈜텐바이텐은 통신판매중개자로서 판매 당사자가 아니며, 상품정보 및 거래 등에 대한 책임을 지지 않습니다.
+                        <br />COPYRIGHT © TENBYTEN ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+                <div class="cs">
+                    <ul class="sns flex">
+                        <li><a href="#"><img src="./images/icon_sns_facebook.png"></a></li>
+                        <li><a href="#"><img src="./images/icon_sns_you.png"></a></li>
+                        <li><a href="#"><img src="./images/icon_sns_instagram.png"></a></li>
+                    </ul>
+                    <div class="customer">
+                        <a href="#">
+                            <p class="title">고객센터 바로가기</p>
+                            <div class="open">
+                                <span>운영시간</span>
+                                <span class="time">오전 10시 ~ 오후 5시 (주말, 공휴일 휴무)</span>
+                            </div>
+                            <div class="lunch">
+                                <span>운영시간</span>
+                                <span class="time">오후 12시 30분 ~ 오후 1시 30분</span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./javascript/jquery-3.7.1min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+
+</html>
